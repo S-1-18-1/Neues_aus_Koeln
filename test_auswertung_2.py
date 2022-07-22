@@ -3,8 +3,8 @@ import os
 import re
 #import pandas as pd
 
-dataPath ="data/1903"
-outputName = "1903"
+dataPath ="data/1907"
+outputName = "test_corpora/1907"
 corpus = {}
 
 
