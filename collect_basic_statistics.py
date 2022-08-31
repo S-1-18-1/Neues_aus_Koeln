@@ -15,6 +15,8 @@ locales_counter_all = 0
 neues_not_found=0
 neues_counter_all = 0
 
+week_day_names = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
+
 sammeln = ""
 
 for root, dir, files in os.walk(dataPath):
@@ -33,10 +35,19 @@ for root, dir, files in os.walk(dataPath):
             if re.match("\w*[TLk][oes][ce]a[lt]es($|\.)", current_line): 
                 # sammeln += current_line + "\n"
                 locales_counter +=1
-            elif re.match("aus [RKtA][öo][li](n|\.)", current_line) and re.match("Neues", lines[index-1]):                
+            elif re.match("aus [RKtA][öo][li](n|\.)", current_line) and re.match("[TNLn]eues", lines[index-1]):                
                 neues_counter +=1
                 sammeln += lines[index-1]
                 sammeln += current_line + "\n"
+            elif re.match("(aus [RKtA][öo][li]n)(\.)?$", current_line) and ("Anzeiger" in lines[index-1] or any(name in lines[index-1] for name in week_day_names) or "Seite" in lines[index-1] or len(lines[index-1])<=7) and len(lines[index-1])<70:
+                
+                neues_counter +=1
+                sammeln += lines[index-1]
+                sammeln += current_line + "\n"
+            elif re.match("[Aa]us [RKtA][öo][li]n-", current_line):
+                print(current_line)
+                
+               
         statistics[str(file_name)].append(locales_counter)
         statistics[str(file_name)].append(neues_counter)
         statistics[str(file_name)].append(week_day)
@@ -64,3 +75,4 @@ print("Insgesamte Anzahl an Neues aus Köln: %i" %neues_counter_all)
 
 with open("sammeln.txt", "w") as file:
     file.write(sammeln)
+

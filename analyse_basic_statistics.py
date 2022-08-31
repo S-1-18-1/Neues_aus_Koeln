@@ -13,7 +13,7 @@ df_cleaned_neues = df.drop_duplicates(subset="Datum", keep=False)
 df_cleaned_locales = df_cleaned_locales.loc[(df['Locales?'] == 0) & (df['Datum']<='1907-12-31'),:]
 df_cleaned_locales = df_cleaned_locales.sort_values(by=['Datum'])
 
-df_cleaned_neues = df_cleaned_neues.loc[(df['Neues aus Köln?'] == 0) & (df['Datum']>'1907-12-31'),:]
+df_cleaned_neues = df_cleaned_neues.loc[(df['Neues aus Köln?'] == 1) & (df['Datum']>'1907-12-31'),:]
 df_cleaned_neues = df_cleaned_neues.sort_values(by=['Datum'])
 
 print(df_cleaned_neues.to_string())
@@ -30,8 +30,12 @@ df = df.assign(Anzahl = df_counts)
 # Wie oft "Lokales" pro Kategorie
 df["Schnitt Lokales"] = df["Locales?"]/df["Anzahl"]
 df["Schnitt Neues"] = df["Neues aus Köln?"]/df["Anzahl"]
+
+
 #df = df.cumsum()
 plot = df["Schnitt Neues"].plot()
 plot = df["Schnitt Lokales"].plot()
 plot.get_figure().savefig("out.png")
 #print(df)
+
+

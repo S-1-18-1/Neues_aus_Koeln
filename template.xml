@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newspaperCopy>
+    <date>
+        <year></year>
+        <month></month>
+        <day></day>
+    </date>
+    <ID></ID>
+    <stories>
+        <story>
+            <number></number>
+            <text></text>
+            <exceptionalNormal></exceptionalNormal>
+        </story>
+    </stories>
+</newspaperCopy>
