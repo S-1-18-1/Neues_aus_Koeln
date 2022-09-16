@@ -1,0 +1,30 @@
+<newspaperCopy>
+  <date>
+    <year>1914</year>
+    <month>10</month>
+    <day>26</day>
+  </date>
+  <ID>427656</ID>
+  <stories>
+    <story>
+      <number>0</number>
+      <text>(T bedeutet: tot</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>1</number>
+      <text>Verw bedeutet: verwunder</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>2</number>
+      <text>L bedeutet: leicht verwunder-- S bedeutet: schwer verwunden--V bedeutet: vermißt</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>3</number>
+      <text>G bedeutet: gefangen.) Kaiser-Alexander-Garde-Grenadier-Reg. 1, Berlin.</text>
+      <exceptionalNormal/>
+    </story>
+  </stories>
+</newspaperCopy>

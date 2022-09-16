@@ -1,0 +1,45 @@
+<newspaperCopy>
+  <date>
+    <year>1914</year>
+    <month>11</month>
+    <day>22</day>
+  </date>
+  <ID>427683</ID>
+  <stories>
+    <story>
+      <number>0</number>
+      <text>der Vos oder den Sparkassen gegen Papiergeld um!</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>1</number>
+      <text>(T bedeutet: tot</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>2</number>
+      <text>Verw bedeutet: verwundet</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>3</number>
+      <text>L bedeutet: leicht verwundet</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>4</number>
+      <text>S bedeutet: schwer verwundet</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>5</number>
+      <text>V bedeutet: vermißt</text>
+      <exceptionalNormal/>
+    </story>
+    <story>
+      <number>6</number>
+      <text></text>
+      <exceptionalNormal/>
+    </story>
+  </stories>
+</newspaperCopy>

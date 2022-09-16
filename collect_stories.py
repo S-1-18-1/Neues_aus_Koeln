@@ -1,12 +1,10 @@
-import csv
 import os
 import re
 import copy
-import pandas as pd
 from lxml import etree as ET
 
 dataPath ="data"
-template = "template.xml"
+template = "resources/template.xml"
 
 outputName = "corpus"
 
@@ -44,6 +42,20 @@ two_char_regex = []
 for regex in two_char_words:
     two_char_regex.append(re.compile(regex, re.IGNORECASE))
 
+
+def check_sentence_end(line_content):
+    if len(line_content.strip()) > 0 and line_content.strip()[-1] not in [".", "!", "?", "—"]:
+        return True
+    else: 
+        return False
+
+def add_to_corpus(file_name, story_number, line_content):
+    try: 
+        corpus[str(file_name)].update({story_number : line_content})
+    except KeyError:
+        corpus[str(file_name)]={story_number : line_content}
+
+
 for root, dir, files in os.walk(dataPath):
     for file_name in files:
         file_path = os.path.join(root, file_name)
@@ -64,43 +76,23 @@ for root, dir, files in os.walk(dataPath):
                     richtigeRubrik = 0
                 elif len(current_line) >= max_line_length and len(current_line.split(" ")[0]) < 3 and not any(regex.match(current_line.split(" ")[0]) for regex in two_char_regex) and not any(regex.match(current_line) for regex in ignore_stories_regex): 
                     # Anfang einer Story (getrennt vom einzelnen Symbol)
-                    if ".-" in current_line:
-                        #print (current_line)
-                        substories = current_line.split(".-")
+                    if ".—" in current_line:
+                        substories = current_line.split(".—")
                         for substory in substories:
-                            #print(substory)
                             story +=1
-                            try: 
-                                corpus[str(file_name)].update({story : substory})
-                            except KeyError:
-                                corpus[str(file_name)]={story : substory}
-                            
-
-                    
+                            add_to_corpus(file_name, story, substory)              
                     else:
-                        
                         story +=1
-                        try: 
-                            corpus[str(file_name)].update({story : current_line})
-                        except KeyError:
-                            corpus[str(file_name)]={story : current_line}
-                       
-                    
+                        #Abtrennen vom Symbol
+                        add_to_corpus(file_name, story, current_line.replace(current_line.split(" ")[0],"",1))
 
-                    if len(current_line.strip()) > 0 and current_line.strip()[-1] not in [".", "!", "?", "—"]:
-                        addNext = True
-                    else: 
-                        addNext = False
+                    addNext = check_sentence_end(current_line)
+
                 elif addNext==True and len(current_line) >= max_line_length:
                     # Fortsetzung einer Story
                     new_s = corpus[str(file_name)][story] + current_line
                     corpus[str(file_name)][story] = new_s
-                    addNext = False
-
-                    if len(current_line.strip()) > 0 and current_line.strip()[-1] not in [".", "!", "?", "—"]:
-                        addNext = True
-                    else: 
-                        addNext = False
+                    addNext =check_sentence_end(current_line)
 
                 #sammeln
 
@@ -127,8 +119,6 @@ for ausgabe, v in corpus.items():
     tree.find(".//month").text=metadata[1]
     tree.find(".//day").text=metadata[2]
     tree.find(".//ID").text=metadata[3].split(".")[0]
-    # print(len(v))
-    # print(tree)
     story_xml = tree.find(".//story")  
 
     count=len(v)
@@ -137,22 +127,12 @@ for ausgabe, v in corpus.items():
             if i > 0:
                 story_xml.addnext(copy.deepcopy(story_xml))
         all_stories=tree.findall(".//story")
-        #print(len(all_stories))
 
         for key, story in v.items():
-            text_to_write = story.replace(story.split(" ")[0],"").replace("\n"," ").removeprefix(' ')
+            # das muss nach vorne, die geteilten strings sollten nicht berücksichtigt werden
+            text_to_write = story.replace("\n"," ").removeprefix(' ')
             all_stories[key].find(".//number").text=str(key)
             all_stories[key].find(".//text").text=text_to_write
 
     tree.write("%s/%s.xml" %(outputName, metadata[3].split(".")[0]), pretty_print=True, encoding='utf-8')        
 
-# for ausgabe, v in corpus.items():
-#     for key, story in v.items():
-#         #print(story)
-#         #open("%s/%s_%s" %(outputName, str(key), ausgabe ),'wb').write(story)
-#         with open("%s/%s_%s" %(outputName, str(key), ausgabe ),'w') as file:
-#             file.write(story)
-
-# for elem in list(template.iter()):
-#         if recursively_empty(elem):
-#             elem.getparent().remove(elem)    
