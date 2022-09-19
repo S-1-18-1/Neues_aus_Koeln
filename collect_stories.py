@@ -6,7 +6,7 @@ from lxml import etree as ET
 dataPath ="data"
 template = "resources/template.xml"
 
-outputName = "corpus"
+outputName = "test"
 
 corpus = {}
 

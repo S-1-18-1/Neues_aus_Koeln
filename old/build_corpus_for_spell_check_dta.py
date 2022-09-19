@@ -1,7 +1,7 @@
 import os
 
 path="resources/dta_komplett_1800-1899"
-output = "corpus_for_spellcheck_dta.txt"
+output = "resources/corpus_for_spellcheck_dta.txt"
 #https://deutschestextarchiv.de/download#text
 
 for root, dir, files in os.walk(path):

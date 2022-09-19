@@ -1,15 +1,17 @@
 import csv
 from fileinput import filename
 import os
-from pickle import FALSE
 import re
 import datetime
 import pandas as pd
 
 
-dataPath ="data"
-outputStatistics = "overview.csv"
+data_path ="data"
+output = "output/overview.csv"
+output_collected_lines = "output/collected_lines.txt"
 statistics = {}
+
+# basic counter for 
 locales_not_found=0
 locales_counter_all = 0
 neues_not_found=0
@@ -17,9 +19,9 @@ neues_counter_all = 0
 
 week_day_names = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 
-sammeln = ""
+collected_lines = ""
 
-for root, dir, files in os.walk(dataPath):
+for root, dir, files in os.walk(data_path):
     for file_name in files:
         file_path = os.path.join(root, file_name)
         with open (file_path, 'r') as f:
@@ -33,17 +35,17 @@ for root, dir, files in os.walk(dataPath):
         statistics[str(file_name)] = [day]
         for index, current_line in enumerate(lines):
             if re.match("\w*[TLk][oes][ce]a[lt]es($|\.)", current_line): 
-                # sammeln += current_line + "\n"
+                # collected_lines += current_line + "\n"
                 locales_counter +=1
             elif re.match("aus [RKtA][öo][li](n|\.)", current_line) and re.match("[TNLn]eues", lines[index-1]):                
                 neues_counter +=1
-                sammeln += lines[index-1]
-                sammeln += current_line + "\n"
+                collected_lines += lines[index-1]
+                collected_lines += current_line + "\n"
             elif re.match("(aus [RKtA][öo][li]n)(\.)?$", current_line) and ("Anzeiger" in lines[index-1] or any(name in lines[index-1] for name in week_day_names) or "Seite" in lines[index-1] or len(lines[index-1])<=7) and len(lines[index-1])<70:
                 
                 neues_counter +=1
-                sammeln += lines[index-1]
-                sammeln += current_line + "\n"
+                collected_lines += lines[index-1]
+                collected_lines += current_line + "\n"
             elif re.match("[Aa]us [RKtA][öo][li]n-", current_line):
                 print(current_line)
                 
@@ -58,9 +60,8 @@ for root, dir, files in os.walk(dataPath):
         locales_counter_all += locales_counter
         neues_counter_all += neues_counter
 
-#print(statistics)
 
-with open(outputStatistics, "w") as file:
+with open(output, "w") as file:
     writer = csv.writer(file)
     writer.writerow(["Ausgabe", "Datum", "Locales?", "Neues aus Köln?", "Wochentag"])
     for ausgabe in statistics:
@@ -73,6 +74,6 @@ print ("Insgesamte Anzahl an Locales: %i" %locales_counter_all)
 print("Zeitungen, in denen Neues aus Köln nicht gefunden wurde: %i" %neues_not_found)
 print("Insgesamte Anzahl an Neues aus Köln: %i" %neues_counter_all)
 
-with open("sammeln.txt", "w") as file:
-    file.write(sammeln)
+with open(output_collected_lines, "w") as file:
+    file.write(collected_lines)
 

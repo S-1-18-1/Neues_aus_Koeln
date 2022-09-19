@@ -1,6 +1,6 @@
 .venv
 venv
 resources/dta_komplett_1800-1899
-spellchecker/corpus_for_spellcheck_dta.txt
+resources/corpus_for_spellcheck_dta.txt
 old/corpus_for_spellcheck_full.txt
 __pycache__
