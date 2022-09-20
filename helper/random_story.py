@@ -3,7 +3,7 @@ from lxml import etree as ET
 import os
 
 path="corpus"
-output = "randomstories.txt"
+output = "output/randomstories.txt"
 stories = []
 
 parser = ET.XMLParser(remove_blank_text=True)

@@ -71,7 +71,6 @@ def clean_up(story):
     """
     # use the cleantext library to fix unicode errors and to remove multiple whitespaces
     story = clean(story,fix_unicode=True,  normalize_whitespace=True,lower=False, lang="de")
-
     # remove the whitespaces between '<space>' elements and remove the tags, used to highlight parts of the text, e.g. <space> h i g h l i g h t <space>
     story = re.sub(r'(?<=<space>).*?(?=<space>)', remove_whitespace, story)
     story = story.replace("<space>", " ")
