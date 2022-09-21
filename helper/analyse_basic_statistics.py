@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df = pd.read_csv("overview.csv", index_col=0, header=0)
+df = pd.read_csv("output/overview.csv", index_col=0, header=0)
 df["Datum"] = pd.to_datetime(df['Datum'],format='%Y-%m-%d')
 df = df.sort_values(by=['Datum'])
 
@@ -16,13 +16,9 @@ df_cleaned_locales = df_cleaned_locales.sort_values(by=['Datum'])
 df_cleaned_neues = df_cleaned_neues.loc[(df['Neues aus Köln?'] == 1) & (df['Datum']>'1907-12-31'),:]
 df_cleaned_neues = df_cleaned_neues.sort_values(by=['Datum'])
 
-print(df_cleaned_neues.to_string())
-df_cleaned_neues.to_csv("cleaned_neues.csv")
-#(df['Locales?'] == 0) & 
+df_cleaned_neues.to_csv("output/cleaned_neues.csv")
 
-#print(df_cleaned_locales.to_string()) 
 df_counts = df.groupby(pd.Grouper(key='Datum', axis=0, freq='Y')).size()
-
 
 df = df.groupby(pd.Grouper(key='Datum', axis=0, freq='Y')).sum()
 df = df.assign(Anzahl = df_counts)
@@ -35,7 +31,7 @@ df["Schnitt Neues"] = df["Neues aus Köln?"]/df["Anzahl"]
 #df = df.cumsum()
 plot = df["Schnitt Neues"].plot()
 plot = df["Schnitt Lokales"].plot()
-plot.get_figure().savefig("out.png")
+plot.get_figure().savefig("output/Neues_Lokales.png")
 #print(df)
 
 
