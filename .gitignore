@@ -1,4 +1,5 @@
 .venv
+.vscode
 venv
 resources/dta_komplett_1800-1899
 resources/corpus_for_spellcheck_dta.txt
