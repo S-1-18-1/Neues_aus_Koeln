@@ -44,7 +44,7 @@
     <story>
       <number>7</number>
       <text>BRAUN, Köln, Peterstrasse 45B, gegenüber dem Hospital.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

@@ -19,7 +19,7 @@
     <story>
       <number>2</number>
       <text>Im Zoologischen Garten wurde einem Mäochen eine kleine goldene Damenuhr, welche die Nummer 5917 trug, mit Kettchen entwendet</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>3</number>

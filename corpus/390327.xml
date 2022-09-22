@@ -34,7 +34,7 @@
     <story>
       <number>5</number>
       <text>London. 14.Dez.1904.(Drahtber.) Der hiesige japanische Gesandte, Baron Hayashi, dementiert die vom Standard veröffentlichte Meldung eines in London lebenden russischen Geheimagenten aus Kopenhagen über das Schicksal des deutschen und französischen Militärattache in Vort arthur. Nach dieser Meldung sollte der Gesandte aus Tokio die Meldung erhalten haben, daß eine Dschunke unter französischer Flagge, in welcher sich die beiden Attaches befanden, den Versuch gemacht habe, aus Port Arthur zu entkommen. Japanische Torpedoboote hätten auf die Dschunke geschossen und den deutschen Attache sowie zwei Chinesen getötet. Nachdem hierauf die Dschunke von einem japanischen Offizier durchsucht worden sei, sei sie von einem Torpedoboot in den Grund gebohrt worden, obgleich sich der französische Attache an Bord befand.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>6</number>

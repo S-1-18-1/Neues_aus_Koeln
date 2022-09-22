@@ -14,7 +14,7 @@
     <story>
       <number>1</number>
       <text>Ueberfahren. Gestern Nachmittag wurde ein vierähriger Knabe am Hildeboldplatz von einer Droschke überfahren und schwer verletzt.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>2</number>

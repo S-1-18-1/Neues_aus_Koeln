@@ -39,7 +39,7 @@
     <story>
       <number>6</number>
       <text>Taschendiebstahl. Gestern nachmittag wurde auf der Schiffbrücke einer Näherin aus Deutz, als sie das Durchfahren eines Schiffes durch die Brücke abwartete, das Portemonnaie mit 11 M. Inhalt entwendet.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>7</number>

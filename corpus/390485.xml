@@ -69,7 +69,7 @@
     <story>
       <number>12</number>
       <text>Eigentümer gesucht. Auf dem Bureau des 2. Kriminalbezirks Altenbergerstrße 7 befinden sich zwei kupferne Lökolben welche anscheinend aus einem Diebstahl herrühren. Der rechtmäßige Eigentümer möge sich dort melden.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>13</number>

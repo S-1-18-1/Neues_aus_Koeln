@@ -34,7 +34,7 @@
     <story>
       <number>5</number>
       <text>Schwerer Fahrraddiebstahl. In einem Fahrradgeschäft an der Bostraße wurde in der Nacht zum Sonntag eingebrochen.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>6</number>

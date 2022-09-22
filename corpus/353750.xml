@@ -34,7 +34,7 @@
     <story>
       <number>5</number>
       <text>Personalien. Der bisherige zweite Bürgermeister der Stadt Oppeln, Philipp Brugger, ist als besoldeter Beigeordneter der Stadt Köln für die gesetzliche Amtsdauer von zwölf Jahren bestätigt</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>6</number>

@@ -54,7 +54,7 @@
     <story>
       <number>9</number>
       <text>Im Kunstgewerbemuseum und zwar im neuen Ausstellungssaale neben der Bibliothek, wird am Sonntag den 11. Oktober eine Ausstellung moderner Frauenkleidung eröffnet. Entwürfe und Ausführung stammen von Emma Schoch(Karlsruhe). Die Ausstellung findet auf Veranlassung des Kolner Vereins für Verbesserung der Frauenkleidung statt. Gleichzeitig sind Schmuckarbeiter und Stickereien ausgestellt.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>10</number>
@@ -69,7 +69,7 @@
     <story>
       <number>12</number>
       <text>Diebstahl. Gestern Abend wurde von einem Geschäfte an Unter Fettenhennen ein etwa 15 Meter langer Teppich-Läufer,</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>13</number>

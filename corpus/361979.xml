@@ -29,7 +29,7 @@
     <story>
       <number>4</number>
       <text>Unfall. Vom Tache eines Neubaues an der Domstrße stürzte gestern Nachmittag ein dort angebrachter eiserner Aufzug in dem Angenblick auf die Straße, als vor dem Neubau Leute mit dem Abladen von Dachpfannen beschäftigt waren. Nur dem Umstande, daß der Aufzug zuerst auf den Bauzaun aufschlug und dann über den Wagen fiel, ist es zu danken, daß Menschen nicht verletzt wurden.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>5</number>

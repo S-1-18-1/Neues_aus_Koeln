@@ -14,7 +14,7 @@
     <story>
       <number>1</number>
       <text>Der Londoner Zug brachte gestern Morgen mehrere große Kisten mit Kränzen, welche nach Berlin weitergingen.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>2</number>

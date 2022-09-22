@@ -19,7 +19,7 @@
     <story>
       <number>2</number>
       <text>Schlägerei. Am Samstag Abend entstand in der Zülpicherstraße eine Schlägerei. Einer der Beteiligten wurde in den Kopf gestochen und suchte Hülfe im Bürgerhospital.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>3</number>

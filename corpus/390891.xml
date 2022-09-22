@@ -39,7 +39,7 @@
     <story>
       <number>6</number>
       <text>Scheue Pferde. Gestern früh kamen zwei vor einem Flaschenmilchwagen gespannte Pferde ohne Führer in rasendem Galopp aus der Kaesenstraße. Die Tiere rannten mit dem Gefährt um den Brunnen am Eifelplatz herum in der Richtung gegen einen dort haltenden Wagen der elektrischen Straßenbarn. Passanten gelang es, die Tiere von dieser Richtung abzudruängen. Die Pferde stürmten dann mit dem Wagen gegen einen Baum auf dem Bürgersteig und kamen hier zu Fall. Der Wagen mit den Milchflaschen blieb mit Ausnahme der Deichsel unbeschaädigt. Ein Pferd erlitt eine schwere Verletzung am Hinterschenkel. Nach Aussage des Kutschers sind die Pferde durch ein Automobil scheu geworden.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>7</number>

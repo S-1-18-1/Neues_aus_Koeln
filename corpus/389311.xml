@@ -14,7 +14,7 @@
     <story>
       <number>1</number>
       <text>In der Flora trat am letzten Sonntag der Operisänger Toni Stelzmann auf und erntete durch mehrere mit prachtvollem Organ und seinempfundenem Vortrage zu Gehör gebrachte Arien und Lieder den reichsten Beifall. Heute, Dienstag Abend, veranstaltet Hr. Stelzmann ein Konzert im Saale der Bürgergesellschaft, das den Besuchern hohen Genuß verspricht.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

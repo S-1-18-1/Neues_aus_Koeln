@@ -9,7 +9,7 @@
     <story>
       <number>0</number>
       <text>Für die Ausstellungen, welche im nächsten Jahre hier stattfinden, ist von Seiten der Stadt die Gewährung von Prämien in Aussicht genommen worden, deren Höhe später festgesetzt werden soll.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>1</number>

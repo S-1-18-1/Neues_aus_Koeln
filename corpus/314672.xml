@@ -29,7 +29,7 @@
     <story>
       <number>4</number>
       <text>Schwindler. Ein junger Mann miethete in einem Hause an St. Agatha ein möblirtes Zimmer mit der Bedingung, daß er alle 14 Tage bezahlen könne. Als er nach Verlauf dieser Zeit zur Zahlung aufgefordert wurde, gab er an, er erhalte sein Salair monatlich, ging fort und kehrte nicht mehr zurück.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>5</number>

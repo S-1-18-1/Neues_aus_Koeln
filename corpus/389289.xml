@@ -109,7 +109,7 @@
     <story>
       <number>20</number>
       <text>Im St. Franziskushospital zu Ehrenfeld wurde vorgestern Abend ein Arbeiter aufgenommen, der sich in einer Zündholzfabrik erhebliche Brandwunden zugezogen hatte. Gestern Morgen geriet in einer Fabrik in der Jülicherstraße ein Mann mit einer Hand in eine Maschine und erlitt schwere Quetschungen. Dem Verletzten wurde im Kloster der Barmherzigen Brüder die erste Hülfe geleistet</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>21</number>

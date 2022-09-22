@@ -60,7 +60,6 @@ def annotate(input_path, story, log):
         return False
     else: 
         number = story[0].find(".//number").text
-        print(number)
 
         # write the annotation result in the original xml
         tree.xpath('.//story[number="%s"]' %number)[0].find("./exceptionalNormal").text = user_answer
@@ -78,13 +77,15 @@ if __name__ == '__main__':
     log = "output/annotation_log.txt"
 
     #
-    desired_annotation_count = 200
+    desired_annotation_count = 300
     existing_annotation_count = get_count_of_existing_annotations(input_path)
     count= int(desired_annotation_count - existing_annotation_count)
 
     # get as many random stories as needed for the remaining files to annotate
     stories = get_random_stories(input_path, count, "return", already_annotated=False)
     for story in stories:
+        existing_annotation_count = get_count_of_existing_annotations(input_path)
+        count= int(desired_annotation_count - existing_annotation_count)
         print ("Remaining annotations: %s/%s" %(count, desired_annotation_count))
         if annotate(input_path, story, log) == False:
             break

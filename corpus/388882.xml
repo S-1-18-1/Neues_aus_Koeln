@@ -14,7 +14,7 @@
     <story>
       <number>1</number>
       <text>In einem Hause an Lyskirchen stürzte ein Mann die Treppe hinunter in den Hausflur und erlitt schwere Verletzungen</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>2</number>

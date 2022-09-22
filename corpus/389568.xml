@@ -34,7 +34,7 @@
     <story>
       <number>5</number>
       <text>Bei den Stadtverordnetenwahlen der ersten Klasse welche gestern vormittag getätigt wurden, erhielten von insgesamt 255 abgegebenen Stimmen: Berghausen 244, Lent 245, vom Rath 244, Schmalbein 244, Wirten 245, Emil Schmitz 251. Die Genannten sind demnach gewählt.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>6</number>

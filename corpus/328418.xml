@@ -54,7 +54,7 @@
     <story>
       <number>9</number>
       <text>Einbruch. Ein Wirth an der Luxemburgerstraße fand früh Morgens seine Haus- und Wirthschaftsthüre offen, welche er selbst am Abend vorher verschlossen hatte. Es stellte sich heraus, daß ihm Diebe einen nächtlichen Besuch abgestattet und außer ca. 4 M. Wechselgeld aus der Thekenschublade, eine Kiste Cigarren und drei Canarienögel mitgenommen hatten.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>10</number>

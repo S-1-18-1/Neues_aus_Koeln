@@ -74,7 +74,7 @@
     <story>
       <number>13</number>
       <text>Der Kronprinz und die Kronprinzessin von Dänemark trafen gestern, von Paris kommend, mit dem Schnellzuge um .58 vm. auf dem Kölner Hauptbahnhofe ein und fuhren mit dem -Zuge um 10.6 vm. über Hamburg nach Kopenhagen weiter.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>14</number>

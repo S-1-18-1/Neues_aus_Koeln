@@ -34,7 +34,7 @@
     <story>
       <number>5</number>
       <text>Genickstarre. Ein etwa 31 Jahre alter Mann vom Stavenhof, welcher an Genickstarre erkrankt war, ist gestern auf der Krankenanstalt Lindenburg gestorben.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>6</number>

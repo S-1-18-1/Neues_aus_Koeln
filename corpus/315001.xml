@@ -64,7 +64,7 @@
     <story>
       <number>11</number>
       <text>Geschäftsstelle des Kölner Local-Anzeiger Marzellenstrasse 20, Ecke Bahnhofstrasse.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

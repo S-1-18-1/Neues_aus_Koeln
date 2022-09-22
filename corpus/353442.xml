@@ -14,7 +14,7 @@
     <story>
       <number>1</number>
       <text>Ausstellung von Sehenswuürdigkeiten aus Deutsch-Ostafrika. Im Hotel-Restaurant National(Domstrße) ist eine Ausstellung von Sehenswuürdigkeiten veranstaltet, die aus Deutsch-Ostafrika von dem Feldwebel der kaiserlichen Schutztruppe, Herrn Otto Freytag, mitgebracht wurden: Geweihe von Antilopen, zahlreiche Schieß- und Schleuderwaffen von Eingeborenen des Schutzgebietes, Stickereien(Handarbeit), Tischdecken, Sandalen usw. Der Eintritt zu dieser Ausstellung ist frei.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>2</number>

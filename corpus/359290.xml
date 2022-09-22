@@ -24,7 +24,7 @@
     <story>
       <number>3</number>
       <text>Auf dem Barbarossaplatz fiel ein junger Mann von einem Milchwagen, infolge dessen er erheblich verletzt wurde</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>4</number>

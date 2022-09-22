@@ -59,7 +59,7 @@
     <story>
       <number>10</number>
       <text>Unfall. In der Florasitaße kam gestern mittag eine Frau</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>11</number>

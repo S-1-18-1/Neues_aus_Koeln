@@ -14,7 +14,7 @@
     <story>
       <number>1</number>
       <text>In einem Hause am Sachsenring entstand ein Gardinenbrand, welcher ebenfalls von der Feuerwehr gelöscht wurde.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>2</number>

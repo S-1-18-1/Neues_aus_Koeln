@@ -64,7 +64,7 @@
     <story>
       <number>11</number>
       <text>Köln, 23. Jan. Dank dem niedrigen Wasserstande ist der Eisgang auf dem Rhein gefahrlos verlaufen. Von den in der Gegend der Loreley noch stehenden Eisresten ist wenig oder gar nichts mehr zu fürchten. Auch ist ein Umschwung der gegenwärtigen Witterung in neues Frostwetter wenig wahrscheinlich. Aus diesem Grunde werden schon allenthalben Vorkehrungen getroffen, den Schifffahrts-Verkehr wieder aufzunehmen. Hier hat man bereits mit dem Aufschlagen der Brückenöpfe begonnen, so dass in einigen Tagen die Schiffbarücke dem Verkehr wieder übergeben werden kann. Der Wasserstand betrug heute Vormittag 11 Uhr bei Köln 3,05 Meter; das Wasser fällt sehr langsam.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>12</number>

@@ -34,7 +34,7 @@
     <story>
       <number>5</number>
       <text>Diebstahl. In der Herzogstrße wurde von dem Hausflur eines Delicatessen-Geschäftes ein Korb mit Bückingen im Werthe von 8 M. gestohlen.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>6</number>

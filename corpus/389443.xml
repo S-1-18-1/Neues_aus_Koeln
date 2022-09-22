@@ -69,7 +69,7 @@
     <story>
       <number>12</number>
       <text>Straßeinsperrung. Behufs Erbauung einer neuen Werftmauer am Deutzer Ufer wird die Fußweg-Unterührung ueben dem Uebergang der Siegburgerstrße über die Eisenbahnlinie Deutz-Kalk am Siegburgerthor vom 15. August d. J. ab auf sechs Monate für Fuhrwerke und sonstige Fahrzeuge aller Art sowie für Reiter gesperrt.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>13</number>

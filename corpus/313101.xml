@@ -24,7 +24,7 @@
     <story>
       <number>3</number>
       <text>Unfall. Gestern Morgen stürzte in der Wolfsstrße ein Bildhauer-Arbeiter von einem Gerüst herunter und erlitt einen Schenkelbruch.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>4</number>

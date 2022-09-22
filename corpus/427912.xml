@@ -54,7 +54,7 @@
     <story>
       <number>9</number>
       <text>Das Messer. Als in der Nacht zum Sonntag ein Arbeiter aus einer Wirtschaft auf dem Großen Griechenmarkt heraustrat, wurde er von einem Manne mit einem Messer in den Arm gestochen und schwer verletzt.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>10</number>

@@ -19,7 +19,7 @@
     <story>
       <number>2</number>
       <text>Diebstahl. Gestern bemerkte ein Polizeibeamter in der Wippertürtherstraße zwei Frauen, die je einen gefüllten Sack auf der Schulter trugen. Als sie den Beamten sahen, warfen sie die Säcke ab und flüchteten in ein Haus, wo sie sich in dem Keller versteckten. Wie der Beamte feststellte, enthielten die Säcke Briketts, die vom Bahnhof Deutzerfeld entwendet worden waren.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

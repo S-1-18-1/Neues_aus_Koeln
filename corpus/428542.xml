@@ -44,7 +44,7 @@
     <story>
       <number>7</number>
       <text>In der Schartgasse fiel ein Mann in den Keller und trug schwere Verletzungen davon</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>8</number>

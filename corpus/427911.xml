@@ -39,7 +39,7 @@
     <story>
       <number>6</number>
       <text>Dom Diebsgesindel. In einem Hause in der Heimbachstraße erbrachen Diebe in der vergangenen Nacht einen Keller und stahlen Weine im Werte von 3- bis 400 M. Leider sind die Diebe unerkannt entkommen.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

@@ -19,7 +19,7 @@
     <story>
       <number>2</number>
       <text>die letzte Aufführung des Schiller-Zyklus im Alten Theater Samstag den 27. d.(Demetrius und Lied von der Glocke) schon 5 1/2 Uhr beginnt. Zu dieser Vorstellung findet kein Billet#erkauf statt, da der Orchesterraum für die Kapelle gebraucht wird. zu der Wallenstein-Trilogie am Sonntag den 28. d. sind nur naoch Galleriebillets zu haben.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>3</number>
@@ -33,7 +33,7 @@
     </story>
     <story>
       <number>5</number>
-      <text></text>
+      <text/>
       <exceptionalNormal/>
     </story>
     <story>

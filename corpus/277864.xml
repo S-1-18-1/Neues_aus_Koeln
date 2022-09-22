@@ -24,7 +24,7 @@
     <story>
       <number>3</number>
       <text>J. Dessault, Köln, Brandenburgerstraße 2.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

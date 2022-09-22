@@ -59,7 +59,7 @@
     <story>
       <number>10</number>
       <text>Wasserärme am 2. Juli, Morgens 7 Uhr: 170,</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>11</number>

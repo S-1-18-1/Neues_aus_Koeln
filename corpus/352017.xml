@@ -64,7 +64,7 @@
     <story>
       <number>11</number>
       <text>Einem Herrn aus Bonn wurde gelegentlich eines entstandenen Gedränges bei Freigabe der Passage auf einer hiesigen Brücke ein Portemonnaie mit 40 M. Inhalt gestohlen.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>12</number>

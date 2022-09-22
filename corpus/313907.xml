@@ -24,7 +24,7 @@
     <story>
       <number>3</number>
       <text>Ein Schleichdieb entführte aus der Kajüte eines Schiffes, welches am Elevator vor Anker lag, eine silberne Cylinder-Uhr mit silberner Kette; die Uhr trug die Nummer 31,737</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>4</number>

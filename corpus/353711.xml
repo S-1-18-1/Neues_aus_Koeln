@@ -44,7 +44,7 @@
     <story>
       <number>7</number>
       <text>Stadttheater. Um einer im Publikum verbreiteten irrtümlichen Voraussetzung, daß Fr. Nellie Melba außer am kommenden Sonntig Nachmittags auch in einer Abendvorſtellung auftreten werde, keilt die Direktion mit, daß das Gastspiel dieser Gesangsünstlerin in einer Abendvorſtellung hier überhaupt nicht möglich ist.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

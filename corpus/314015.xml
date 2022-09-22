@@ -39,7 +39,7 @@
     <story>
       <number>6</number>
       <text>Ein jugendlicher Dieb, auf den die Polizei schon seit längerer Zeit fahndet, wurde gestern Nachmittag 3 1/2 Uhr auf der Straße Unter Goldschmied festgenommen. Bei demselben wurden drei Uhren und sonstige gestohlene Gegenstände vorgefunden.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>7</number>

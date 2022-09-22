@@ -29,7 +29,7 @@
     <story>
       <number>4</number>
       <text>Die Viehsärkte sind wegen des Grüdonnerstags und Charfreitags sowie wegen des Ostermontags verlegt worden; und zwar findet der Kleinviehmarkt anstatt am 7 und 8. bereits am 6 April. Morgens Uhr beginnend, der Großvieh- und Schweine-Markt anstatt am 11. April am darauffolgenden Dinstag statt.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
     <story>
       <number>5</number>

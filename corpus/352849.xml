@@ -29,7 +29,7 @@
     <story>
       <number>4</number>
       <text>Ein Bildhauer erstattete auf einem Polizei-Bureau die Anzeige, daß er in einem hiesigen Restaurant von einem unbekannten Manne mit einem scharfen Gegenstand auf den Hinterkopf geschlagen worden sei, wodurch er mehrere blutende Wunden davon getragen hatte. Der Mann wurde dem Bürger-Hospital zugefuührt, dort verbunden und dann entlassen</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>5</number>

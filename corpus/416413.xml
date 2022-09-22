@@ -9,7 +9,7 @@
     <story>
       <number>0</number>
       <text>Eine große Theateraufführung veranstaltet die Marianische Jünglingskongregation St. Joseph und St. Mechten in Ehrenfeld am Sonntag, den 3. d. M. im großen Saal des Leobaues. Es wird das fünfaktige geschichtliche Trauerspiel Kaiser Maximilian von Mexiko in Szene gehen.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>n</exceptionalNormal>
     </story>
   </stories>
 </newspaperCopy>

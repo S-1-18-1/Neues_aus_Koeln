@@ -19,7 +19,7 @@
     <story>
       <number>2</number>
       <text>Festgenommen wurde ein Tagelöner aus Köln-Deutz wegen Zechprellerei; ferner kam ein hier wohnender Tagelöhner in Haft, der sich in einer Wirtschaft ungebührlich benahm und den Hausfrieden brach.</text>
-      <exceptionalNormal/>
+      <exceptionalNormal>y</exceptionalNormal>
     </story>
     <story>
       <number>3</number>
