@@ -23,6 +23,6 @@ def build_spelling_correction(path, output):
 
 if __name__ == '__main__':
     """
-        the data is from "https://deutschestextarchiv.de/download" "DTA-Kernkorpus und Ergänzungstexte Zeitraum 1800–1899"
+        the data is from "https://deutschestextarchiv.de/download" "DTA-Kernkorpus und Ergänzungstexte Zeitraum 1800–1899" -> "https://media.dwds.de/dta/download/dta_komplett_1800-1899_2020-09-23_text.zip"
     """
     build_spelling_correction("resources/dta_komplett_1800-1899", "resources/dictionary.json")

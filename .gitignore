@@ -1,7 +1,9 @@
-.venv
-.vscode
-venv
+.venv/
+.vscode/
+venv/
+old/
+__pycache__/
 resources/dta_komplett_1800-1899
-resources/corpus_for_spellcheck_dta.txt
-old/corpus_for_spellcheck_full.txt
-__pycache__
+
+
+

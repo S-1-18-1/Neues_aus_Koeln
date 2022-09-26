@@ -76,7 +76,7 @@ if __name__ == '__main__':
     input_path = "corpus"
     log = "output/annotation_log.txt"
 
-    #
+    # how many annotations should be made
     desired_annotation_count = 300
     existing_annotation_count = get_count_of_existing_annotations(input_path)
     count= int(desired_annotation_count - existing_annotation_count)
@@ -89,3 +89,4 @@ if __name__ == '__main__':
         print ("Remaining annotations: %s/%s" %(count, desired_annotation_count))
         if annotate(input_path, story, log) == False:
             break
+    #if s

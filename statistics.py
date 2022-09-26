@@ -24,7 +24,6 @@ def print_statistics(path, output):
             tree = ET.parse(full_path, parser)
             id = tree.find(".//ID").text
             year = tree.find(".//year").text
-            #count = len(tree.findall(".//story"))
             count = int(tree.xpath("count(//text[text()])"))
             rows.append({"ID": id, "Jahr": year, "Geschichten": count})
 

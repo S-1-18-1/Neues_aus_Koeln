@@ -35,7 +35,6 @@ for root, dir, files in os.walk(data_path):
         statistics[str(file_name)] = [day]
         for index, current_line in enumerate(lines):
             if re.match("\w*[TLk][oes][ce]a[lt]es($|\.)", current_line): 
-                # collected_lines += current_line + "\n"
                 locales_counter +=1
             elif re.match("aus [RKtA][öo][li](n|\.)", current_line) and re.match("[TNLn]eues", lines[index-1]):                
                 neues_counter +=1
