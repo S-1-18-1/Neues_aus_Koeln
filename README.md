@@ -6,6 +6,8 @@
 
 ## Folder Structure
 
+*root folder*: scripts used in the main workflow to create an annotated corpus
+
 *corpus*: final corpus
 
 *data*: raw texts
